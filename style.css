@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #0D1B2A 0%, #1B263B 100%);
+  color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 500px;
+}
+
+button {
+  background-color: #FF3CAC;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #FF3CAC;
+}
+
+.result-box {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: #FF8B72;
+}
+
+.language-switcher {
+  margin-top: 2rem;
+}
+
+.language-switcher button {
+  background-color: #6C5CE7;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
