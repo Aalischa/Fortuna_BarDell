@@ -66,6 +66,7 @@ let currentLang = 'ru';
 
 function setLanguage(lang) {
   currentLang = lang;
+  document.documentElement.lang = lang;
   document.querySelector('[data-i18n="title"]').innerText = messages[lang].title;
   document.querySelector('[data-i18n="subtitle"]').innerText = messages[lang].subtitle;
   document.querySelector('[data-i18n="button"]').innerText = messages[lang].button;
